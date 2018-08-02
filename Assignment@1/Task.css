@@ -1,0 +1,559 @@
+body{
+    width: 100%;
+    font-size:18px;
+    font-weight:normal;
+    margin:0;
+    text-align: justify;
+    background-color: rgb(240, 255, 253);
+}
+.slideshow-container {
+    display: none;
+}
+.main{
+    width: 100%;
+    height: auto;
+
+}
+.left{
+    width: 50%;
+    float: left;
+    height: 600px;
+}
+.right{
+    width: 50%;
+    float: left;
+    height: 600px;
+}
+.responsiveHead,.responsiveMobileDiv{
+    display: none;
+}
+.mainImg{
+    padding: 50px;
+    padding-left: 200px;
+    width: 500px;
+    height:500px;
+}
+.mainImgBottom{
+    padding-left: 200px;
+}
+.rightContent{
+    padding: 45px;
+    /* padding-right: 150px; */
+}
+
+.price{
+    font-size: 25px;
+}
+.textAdjust{
+    padding-right: 100px;
+}
+.ButtonSize{
+    background-color: #FFFFFF;
+    border: 1px solid #282C3F;
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #282C3F;
+   
+}
+.ButtonSize:hover {
+    color: #FFFFFF;
+    font-weight: 500;
+    background-color: #282C3F;
+  }
+.ButtonSizeSmall{
+    min-width: 35px;
+    height: 35px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+} 
+.ButtonSizeMedium{
+    min-width: 40px;
+    height: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+}
+.ButtonSizeLarge{
+    min-width: 45px;
+    height: 45px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+.ColorButtonSize{  
+    min-width: 40px;
+    height: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    padding: 15px;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer; 
+}
+.ColorButtonSize:hover{
+    border: 1px solid rgb(140, 142, 150);
+    min-width: 43px;
+    height: 43px;
+    -webkit-border-radius: 43px;
+    -moz-border-radius: 43px;
+    border-radius: 43px;
+}
+.ButtonSkyblue{
+    background-color: rgb(33, 205, 228);
+    border: 1px solid rgb(33, 205, 228);
+}
+.ButtonGreen{
+    background-color: rgb(86, 224, 21);
+    border: 1px solid rgb(86, 224, 21);
+}
+.ButtonOrange{
+    background-color: rgb(230, 91, 36);
+    border: 1px solid rgb(230, 91, 36);
+}
+.ButtonPurple{
+    background-color: rgb(171, 53, 240);
+    border: 1px solid rgb(171, 53, 240);
+}
+.addButton{
+    padding: 10px;
+}
+.AddCartButton{
+    background-color:#20BD99;
+    border: 1px solid #20BD99;
+    min-width: 200px;
+    height: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    padding: 0  ;
+    text-align: center;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #282C3F;
+}
+.AddCartButton:hover{
+    min-width: 220px;
+    height: 45px;
+}
+
+.body1{
+    width: 100%;
+    height: auto;
+}
+.first,.fourth{
+    width: 35%;
+    float: left;
+    height: auto;
+    display: inline-block;
+}
+.second,.fifth{
+    position: relative;
+    width: 33%;
+    float: left;
+    height: auto;
+}
+.third, .sixth{
+    width: 31%;
+    float: left;
+    height: auto;
+}
+.ulImg{
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+.body2{
+    width: 100%;
+    height: auto;
+}
+
+.subImgLeft,.subImgLeft2{
+    
+    padding-left: 200px;
+    width: 350px;
+    height:400px;
+    
+}
+.subImgMiddle,.subImgMiddle2{
+
+    padding-left: 80px;
+    width: 350px;
+    height:400px;
+}
+.subImgRight,.subImgRight2{
+
+    width: 350px;
+    height:400px;
+}
+.subImgLeftPrice,.subImgLeftPrice2{
+    position: relative;
+    width: 150px;
+    left: 400px;
+    margin-right: 4px;
+    bottom: 100px;
+    padding: 0;
+    background-color: #20BD99;
+    display: block;
+}
+.subImgMiddlePrice,.subImgMiddlePrice2{
+    position: relative;
+    width: 150px;
+    left: 280px;
+    bottom: 100px;
+    padding: 0;
+    background-color: #20BD99;
+    display: block;
+}
+.subImgRightPrice,.subImgRightPrice2{
+    position: relative;
+    width: 150px;
+    left: 200px;
+    bottom: 100px;
+    padding: 0;
+    background-color: #20BD99;
+    display: block;
+
+}
+.subImgLeftH3,.subImgLeft2H3{
+    position: relative;
+    padding-left: 270px;
+    margin: 0;
+}
+.subImgMiddleH3,.subImgMiddle2H3{
+    position: relative;
+    padding-left: 150px;
+    margin: 0;
+}
+.subImgRightH3,.subImgRight2H3{
+    position: relative;
+    padding-left: 100px;
+    margin: 0;
+}
+.popup {
+    color: #0FBCEA;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.responsiveDiv{
+    display: none;
+}
+/* The actual popup */
+.popuptext {
+    visibility: hidden;
+    width: 250px;
+    height: 60px;
+    text-align: center;
+    position: absolute;
+    border: 1px solid #0FBCEA;
+    left: 50%;
+    margin-left: -120px;
+}
+
+/* Popup arrow */
+.popuptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    border: 1px solid #0FBCEA;
+    border-width: 10px;
+    border-color:transparent transparent #0FBCEA transparent;
+}
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+}
+.iconButtonSize{
+   
+    border: 2px solid #0FBCEA;
+    min-width: 40px;
+    height: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    border-radius: 40px;
+    font-size:15px;
+    text-align: center;
+    margin-top: 10px;
+ background-color:white;
+    cursor: pointer;
+    color: #0FBCEA;
+  
+}
+.slideBody{
+    display: none;
+}
+
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1354px) {
+  
+.popup{
+    display: none;
+} 
+.mainImg{
+    padding: 0px;
+    padding-right: 100px;
+    padding-left: 50px;
+    width: 70%;
+    height: 400px;
+}
+.rightContent{
+    padding: 0;
+    padding-left: 80px;
+    padding-top: 50px;
+   
+}
+.rightContent p{
+    font-size: 12px;
+}
+.rightHead{
+    display: none;
+}
+.responsiveHead{
+    display:block;
+    margin-left: 50px;
+}
+.mainImgBottom{
+    padding-left: 320px;
+}
+.first,.second,.third,.fourth,.fifth,.sixth {
+    width: 50%;
+}
+.subImgLeft,.subImgRight,.subImgMiddle2{
+    padding-left: 50px;
+    width: 355px;
+}
+.subImgMiddle,.subImgLeft2,.subImgRight2{
+    padding-left: 30px;
+}
+.subImgLeftH3,.subImgRightH3,.subImgMiddle2H3{
+    padding-left: 130px;
+}
+.subImgMiddleH3,.subImgLeft2H3,.subImgRight2H3{
+    padding-left: 180px;
+}
+.subImgLeftPrice,.subImgRightPrice,.subImgMiddlePrice2{
+    position: relative;
+    text-align: center;
+    width: 355px;
+    bottom: 68px;
+    left: 50px;
+    padding: 0;
+    background-color: #20BD99;
+    display: block
+}
+.subImgMiddlePrice,.subImgLeftPrice2,.subImgRightPrice2{
+    position: relative;
+    text-align: center;
+    width: 350px;
+    bottom: 68px;
+    left: 30px;
+    padding: 0;
+    background-color: #20BD99;
+    display: block
+}
+
+.responsiveDiv {
+    display: inline-grid;
+    text-align: center;
+    padding-left: 60px;
+    position: relative;
+    bottom: 400px
+}
+.iconButtonSize{
+   
+    
+ background-color:rgb(231, 236, 211);
+    
+}
+
+
+}
+
+
+
+
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 400px) and (max-width: 767px) {
+  
+ .left {
+        width: 100%;
+ }
+ .responsiveHead{
+    display: block;
+    width: 100%;
+    text-align: center;
+ }
+ .mainImg {
+    padding: 0;
+    height: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+ }
+ .mainImgBottom{
+    text-align: center;
+    padding: 0;
+ }
+ .right {
+    width: 100%;
+    float: left;
+    height: auto;
+    margin-left: 8%;
+    margin-top: -100px;
+ }
+ .popup{
+    display: none;
+ }
+ .responsiveMobileDiv{
+    display: block;
+ }
+ .body2{
+    display: none;
+ } 
+
+ .slideBody{
+    display: block;
+}
+
+.mySlides {display: none;
+}
+.subImg {
+    height: 450px;
+    /* width: 400px; */
+    /* margin: 50px; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 73%;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    display: block;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: relative;
+    bottom: 325px;
+  width: auto;
+  padding: 16px;
+  color: #20BD99;;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+.prev{
+    left: 15%;
+}
+/* Position the "next button" to the right */
+.next {
+    left: 72%;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+.subImgPrice{
+    position: relative;
+    width: 73%;
+    bottom: 77px;
+    padding: 0;
+    background-color: #20BD99;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+.subImgPrice p{
+    text-align: center;
+}
+.subImgH3{
+    position: relative;
+    padding-left: 250px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+  }
