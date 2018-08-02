@@ -1,0 +1,130 @@
+body {
+    background: transparent;
+    width: 100%;
+    font: 15px Helvetica,Arial,sans-serif;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    background-color: rgba(255, 0, 221, 0.151);
+}
+#chat{
+    width: 250px;
+    height: 40px;
+    border: 1px solid rgba(255, 0, 200, 0.74);
+    background-color: rgba(255, 0, 200, 0.74);
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.0980392) 0 0 1px 2px;
+    position: fixed;
+    bottom: -3px;
+    right: 15px;
+    z-index: 99;
+}
+.chat_text_message,.chatbox_header_message{
+    color: rgb(12, 241, 12);
+}
+.chat_text,.chatbox_header_text{
+    position: relative;
+    bottom: 7px;
+    left: 7px;
+
+}
+.chat_icon{
+    font-size:24px;
+    color:rgb(12, 241, 12);
+    position: relative;
+    left: 211px;
+    bottom: 50px;
+}
+
+
+
+
+
+#chatbox{
+    position: fixed;
+    right: 10px;
+    bottom: 0;
+
+    width: 350px;
+    height: 440px;
+    border:1px solid #ccc;
+    border-radius: 5px;
+    z-index: 100;
+    display: none;
+    background-color: white;
+}
+.chatbox_form{
+    margin: 0 20px;
+    font-size: 15px;
+    height: 310px;
+}
+.chatbox_header{
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(255, 0, 200, 0.74);
+    background-color: rgba(255, 0, 200, 0.74);
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.0980392) 0 0 1px 2px;
+}
+.form_field{
+    margin: 0 auto;
+    max-width: 260px;
+    left: 5px;
+    right: 5px;
+    bottom: 50px;
+    top: 0;
+    padding-bottom: 10px;
+    
+}
+.chatbox_text_field{
+    padding: 10px 20px;
+    line-height: 1.2em;
+    color: #616161;
+    font-size: 15px;
+    text-align: center;
+}
+.chatbox_input_field{
+    padding: 20px 0;
+}
+
+.text_field{
+    display: block;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+    height: 33px;
+    width: 220px;
+    padding: 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 0 0 7px 0;
+    font-weight: bold;
+}
+.submit_button{
+    width: 100%;
+    height: 50px;
+    float: left;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 0, 200, 0.74);
+    border-style: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+.launch-icon{
+    padding: 5px 20px;
+}
+.footer{
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    clear: both;
+}
+.footer_text{
+    float: right;
+    padding: 10px;
+}
+i{
+    cursor: pointer;
+}
