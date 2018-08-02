@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="container">
+        <div class="controls">
+            <h1>My Online Project</h1>
+            <input type="text" name="name" id="input"><br>
+            <button type="button" id="add">Add Story</button>
+            <button type="button" id="remove">Remove done Story</button>
+        </div>
+        <div id="select_all"><input type="checkbox" id="select" onClick="toggle(this)" ><label>Select All</label> </div>
+        <ul id="list">
+            <li class="mycheck"><input type="checkbox" name="foo" id="check" ><label>Come to Office</label></li>
+            <li class="mycheck"><input type="checkbox" name="foo" id="check" ><label>Do work</label></li>
+            <li class="mycheck"><input type="checkbox" name="foo" id="check" ><label>Submit the work</label></li>
+            <li class="mycheck"><input type="checkbox" name="foo" id="check" ><label>Go to PG</label></li>
+        </ul>
+        <script src="jquery.min.js"></script>
+    </div>
+
+    
+    <script src="index.js"></script>
+</body>
+</html>
